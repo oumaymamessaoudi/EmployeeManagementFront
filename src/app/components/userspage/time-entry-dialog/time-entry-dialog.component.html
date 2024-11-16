@@ -1,0 +1,55 @@
+<h1 mat-dialog-title>Ajouter une ligne</h1>
+<div mat-dialog-content>
+  <form [formGroup]="timeEntryForm">
+    <mat-form-field appearance="fill">
+      <mat-label>Projet</mat-label>
+      <mat-select formControlName="projet">
+        <mat-option *ngFor="let project of projects" [value]="project">{{ project.nom }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Release/Chantier</mat-label>
+      <mat-select formControlName="release">
+        <mat-option *ngFor="let release of releases" [value]="release">{{ release.nom }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Activité</mat-label>
+      <mat-select formControlName="activite">
+        <mat-option *ngFor="let activity of activities" [value]="activity">{{ activity.nom }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Lundi</mat-label>
+      <input matInput formControlName="heuresLundi" type="number" min="0" max="24">
+    </mat-form-field>
+    
+
+    <mat-form-field appearance="fill">
+      <mat-label>Mardi</mat-label>
+      <input matInput formControlName="heuresMardi" type="number" min="0" max="24">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Mercredi</mat-label>
+      <input matInput formControlName="heuresMercredi" type="number" min="0" max="24">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Jeudi</mat-label>
+      <input matInput formControlName="heuresJeudi" type="number" min="0" max="24">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Vendredi</mat-label>
+      <input matInput formControlName="heuresVendredi" type="number" min="0" max="24">
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Annuler</button>
+  <button mat-button color="primary" [disabled]="!timeEntryForm.valid" (click)="onSaveClick()">Enregistrer</button>
+</div>

@@ -1,0 +1,93 @@
+.timesheet-container {
+    margin: 20px;
+  }
+  
+  .timesheet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timesheet-date {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timesheet-date button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .timesheet-summary {
+    display: flex;
+  }
+  
+  .summary-item {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .summary-item span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .summary-item p {
+    margin: 0;
+    color: #6c757d;
+  }
+  
+  .timesheet-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .timesheet-table th, .timesheet-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .timesheet-table th {
+    background-color: #f8f9fa;
+  }
+  .timesheet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; /* Adjust as needed */
+  }
+  
+  .timesheet-header h3 {
+    margin: 0; /* Remove default margin if needed */
+  }
+  
+  .timesheet-header button {
+    margin-left: auto; /* Push button to the right */
+  }
+  .timesheet-table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  /* Optional: Adjust the table container's max width if needed */
+  .mat-table {
+    max-width: 100%;
+  }
+  .nav-button {
+    padding: 8px 16px; /* Adjust padding as needed */
+    font-size: 14px;   /* Adjust font size as needed */
+    margin: 0 5px;     /* Add spacing between buttons */
+  }
+  

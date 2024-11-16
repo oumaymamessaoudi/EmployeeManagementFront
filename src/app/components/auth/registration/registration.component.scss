@@ -1,0 +1,6 @@
+ 
+.form-submit:disabled {
+  background-color: #d6d6d6; /* Grey background for disabled state */
+  color: #a9a9a9; /* Grey text for disabled state */
+  cursor: not-allowed;
+}
