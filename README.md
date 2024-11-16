@@ -57,16 +57,15 @@ ng serve
 
 ---
 
-🖼️ Screenshots
-🌟 Home
-![Capture d'écran 2024-10-24 164123](https://github.com/user-attachments/assets/499fd1cd-16e6-4e35-8caa-b57ee1e65672)
-🌟 Login
-![Capture d'écran 2024-10-24 164334](https://github.com/user-attachments/assets/10eb356f-54a8-47db-bb34-52a7472dab30)
-🌟 Admin page
-![Capture d'écran 2024-10-24 164447](https://github.com/user-attachments/assets/924b3446-6221-4ea9-bcd8-7651a8bb0eba)
-🌟TimeSheets
-![Capture d'écran 2024-10-24 164257](https://github.com/user-attachments/assets/a5ae9ca1-8e75-4a8f-8922-73b07ce1fc60)
-![Capture d'écran 2024-10-24 164230](https://github.com/user-attachments/assets/d9ab9bbe-4628-4264-8a6f-51408e7f256c)
+🤝 Contribution
+We welcome contributions! Fork this repository and create a pull request with your improvements or ideas.
+
+📧 Contact
+Author: Oumayma Messaoudi
+Email: oumayma.messaoudi@esprit.tn
+
+
+
 
 
 
